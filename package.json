@@ -1,0 +1,16 @@
+{
+  "name": "prolog-server",
+  "version": "0.1.0",
+  "description": "Serve Tau Prolog via http server",
+  "main": "build/index.js",
+  "author": "Shi Johnson-Bey",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "node ./index.js"
+  },
+  "dependencies": {
+    "express": "^4.17.2",
+    "tau-prolog": "^0.3.1"
+  }
+}
